@@ -1,0 +1,52 @@
+body {
+  width: 98vw;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 14px;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
+header h1 {
+  text-align: center;
+  color: gold;
+  margin-top: 10%;
+  font-size: 3rem;
+}
+header p {
+  width: 60vw;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+header p span {
+  color: gold;
+}
+header div {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+header div button {
+  background-color: gold;
+  color: white;
+  width: 20vw;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+}
+article {
+  margin-left: 17%;
+}
+.foodTimer {
+  display: block;
+  margin: auto;
+  /* viewport width */
+  width: 40vw;
+}
